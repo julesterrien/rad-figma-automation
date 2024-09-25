@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "figma-automation-selenium"
+version = "0.1.0"
+description = ""
+authors = ["Jules Terrien <julesterrien@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+webdriver-manager = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
